@@ -1,0 +1,360 @@
+℘(A∩B)=℘(A)∩℘(B)
+∀a(a∈℘(A∩B)↔a∈℘(A)∩℘(B))
+</stmnt>
+x∈℘(A∩B)↔x∈℘(A)∩℘(B)
+</stmnt>
+x∈℘(A∩B)→x∈℘(A)∩℘(B)
+</stmnt>
+x∈℘(A∩B)
+∀b(b∈x→b∈A∩B)
+</stmnt>
+∀a(a∈x→a∈A)
+</stmnt>
+a∈x→a∈A
+</stmnt>
+a∈x
+</stmnt>
+a∈x→a∈A∩B
+</stmnt>
+a∈A∩B
+a∈A∧a∈B
+</stmnt>
+a∈A
+</stmnt>
+a∈B
+</stmnt>
+∀b(b∈x→b∈B)
+</stmnt>
+b∈x→b∈B
+</stmnt>
+b∈x
+</stmnt>
+b∈x→b∈A∩B
+</stmnt>
+b∈A∩B
+b∈A∧b∈B
+</stmnt>
+b∈A
+</stmnt>
+b∈B
+</stmnt>
+x∈℘(A)∩℘(B)
+∀a(a∈x→a∈A)∧∀b(b∈x→b∈B)
+</stmnt>
+x∈℘(A)∩℘(B)→x∈℘(A∩B)
+</stmnt>
+x∈℘(A)∩℘(B)
+x∈℘(A)∧x∈℘(B)
+</stmnt>
+x∈℘(A∩B)
+∀a(a∈x→a∈A∩B)
+</stmnt>
+a∈x→a∈A∩B
+</stmnt>
+a∈x
+</stmnt>
+x∈℘(A)
+∀b(b∈x→b∈A)
+</stmnt>
+x∈℘(B)
+∀b(b∈x→b∈B)
+</stmnt>
+a∈x→a∈A
+</stmnt>
+a∈A
+</stmnt>
+a∈x→a∈B
+</stmnt>
+a∈B
+</stmnt>
+a∈B∧a∈A
+</stmnt>
+a∈A∩B
+a∈A∧a∈B
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>=<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.<br><b>Proof:</b>
+26,27
+
+0
+-
+-
+0
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>=<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>
+1
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>
+1
+0
+0
+-
+-
+2
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+-
+3
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>
+1
+0
+0
+-
+-
+4
+1
+Since <span class="formula"><i>a</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>a</i><span>(</span><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>)</span></span>.
+0
+-
+
+0
+Let <span class="formula"><i>a</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+-
+5
+1
+Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>.
+-
+6
+
+0
+Suppose <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+3
+7
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+</inf>
+0
+-
+6,7
+8
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i></span> and <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+</inf>
+0
+-
+8
+9,10
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>a</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+9
+9
+0
+We already know that <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+-
+11
+1
+Since <span class="formula"><i>b</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>B</i><span>)</span></span>.
+1
+-
+
+0
+Let <span class="formula"><i>b</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>B</i></span>
+1
+0
+0
+-
+-
+12
+1
+Therefore <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>B</i></span>.
+-
+13
+
+0
+Suppose <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>b</i><span>∈<wbr></span><i>B</i></span>
+1
+0
+0
+-
+3
+14
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>, <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+</inf>
+0
+-
+13,14
+15
+0
+Since <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i></span> and <span class="formula"><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>, <span class="formula"><i>b</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+</inf>
+0
+-
+15
+16,17
+0
+Since <span class="formula"><i>b</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>, <span class="formula"><i>b</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>b</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+17
+17
+0
+We already know that <span class="formula"><i>b</i><span>∈<wbr></span><i>B</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+4,11
+18
+0
+Since <span class="formula"><span>∀</span><i>a</i><span>(</span><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>)</span></span> and <span class="formula"><span>∀</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>b</i><span>∈<wbr></span><i>B</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>
+1
+0
+0
+-
+-
+19
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>.
+-
+20
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>
+1
+0
+0
+-
+-
+21
+1
+Since <span class="formula"><i>a</i></span> was arbitrary, we can conclude that <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>∩</span><i>B</i><span>)</span></span>.
+0
+-
+
+0
+Let <span class="formula"><i>a</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>
+1
+0
+0
+-
+-
+22
+1
+Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+-
+23
+
+0
+Suppose <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>
+1
+0
+0
+-
+20
+24,25
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>∩</span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+</inf>
+0
+-
+24
+26
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+23,26
+27
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i></span> and <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+25
+28
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+23,28
+29
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i></span> and <span class="formula"><i>a</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>a</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+29,27
+30
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>B</i></span> and <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>B</i><span>∧<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+30
+31
+0
+Since <span class="formula"><i>a</i><span>∈<wbr></span><i>B</i><span>∧<wbr></span><i>a</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>a</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
