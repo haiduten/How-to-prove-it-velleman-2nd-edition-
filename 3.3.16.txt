@@ -1,0 +1,114 @@
+F⊆℘(B)→∪F⊆B
+</stmnt>
+F⊆℘(B)
+∀a(a∈F→a∈℘(B))
+</stmnt>
+∪F⊆B
+∀x(x∈∪F→x∈B)
+</stmnt>
+x∈∪F→x∈B
+</stmnt>
+x∈∪F
+∃a∈F(x∈a)
+</stmnt>
+x∈A
+</stmnt>
+A∈F
+</stmnt>
+A∈F→A∈℘(B)
+</stmnt>
+A∈℘(B)
+∀a(a∈A→a∈B)
+</stmnt>
+x∈A→x∈B
+</stmnt>
+x∈B
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><i>F</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>→<wbr></span><span>∪</span><i>F</i><span>⊆<wbr></span><i>B</i></span>.<br><b>Proof:</b>
+27,31
+
+0
+-
+-
+0
+1
+Therefore <span class="formula"><i>F</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>→<wbr></span><span>∪</span><i>F</i><span>⊆<wbr></span><i>B</i></span>.
+-
+1
+
+0
+Suppose <span class="formula"><i>F</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∪</span><i>F</i><span>⊆<wbr></span><i>B</i></span>
+1
+0
+0
+-
+-
+2
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><span>∪</span><i>F</i><span>⊆<wbr></span><i>B</i></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>
+1
+0
+0
+-
+-
+3
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>.
+-
+4
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>
+1
+0
+0
+26
+4
+5,6
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>, we can choose <span class="formula"><i>A</i></span> such that <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span>.
+</inf>
+0
+-
+1
+7
+0
+Since <span class="formula"><i>F</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>, <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>A</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+</inf>
+0
+-
+6,7
+8
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>A</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>, <span class="formula"><i>A</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>.
+</inf>
+0
+-
+8
+9
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>B</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+5,9
+10
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
