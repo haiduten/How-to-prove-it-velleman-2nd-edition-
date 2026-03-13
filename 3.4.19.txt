@@ -1,0 +1,409 @@
+(∪F)∩(∪G)⊆∪(F∩G)↔∀A∈F∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+(∪F)∩(∪G)⊆∪(F∩G)→∀A∈F∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+(∪F)∩(∪G)⊆∪(F∩G)
+∀a(a∈(∪F)∩(∪G)→a∈∪(F∩G))
+</stmnt>
+∀A∈F∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+A∈F
+</stmnt>
+∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+B∈G
+</stmnt>
+A∩B⊆∪(F∩G)
+∀a(a∈A∩B→a∈∪(F∩G))
+</stmnt>
+x∈A∩B→x∈∪(F∩G)
+</stmnt>
+x∈A∩B
+x∈A∧x∈B
+</stmnt>
+x∈A
+</stmnt>
+x∈B
+</stmnt>
+x∈(∪F)∩(∪G)→x∈∪(F∩G)
+x∈∪F∧x∈∪G→x∈∪(F∩G)
+</stmnt>
+A∈F∧x∈A
+</stmnt>
+x∈∪F
+∃a(a∈F∧x∈a)
+</stmnt>
+x∈B∧B∈G
+</stmnt>
+x∈∪G
+∃a(a∈G∧x∈a)
+</stmnt>
+x∈∪F∧x∈∪G
+</stmnt>
+x∈∪(F∩G)
+∃a(a∈(F∩G)∧x∈a)
+∃a(a∈F∧a∈G∧x∈a)
+</stmnt>
+C∈F∧C∈G∧x∈C
+</stmnt>
+x∈∪(F∩G)
+∃a(a∈F∧a∈G∧x∈a)
+</stmnt>
+∀A∈F∀B∈G(A∩B⊆∪(F∩G))→(∪F)∩(∪G)⊆∪(F∩G)
+</stmnt>
+∀A∈F∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+(∪F)∩(∪G)⊆∪(F∩G)
+∀a(a∈(∪F)∩(∪G)→a∈∪(F∩G))
+</stmnt>
+x∈(∪F)∩(∪G)→x∈∪(F∩G)
+</stmnt>
+x∈(∪F)∩(∪G)
+x∈∪F∧x∈∪G
+</stmnt>
+x∈∪F
+∃a(a∈F∧x∈a)
+</stmnt>
+x∈∪G
+∃a(a∈G∧x∈a)
+</stmnt>
+A∈F∧x∈A
+</stmnt>
+B∈G∧x∈B
+</stmnt>
+A∈F
+</stmnt>
+x∈A
+</stmnt>
+B∈G
+</stmnt>
+x∈B
+</stmnt>
+A∈F→∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+∀B∈G(A∩B⊆∪(F∩G))
+</stmnt>
+B∈G→A∩B⊆∪(F∩G)
+</stmnt>
+A∩B⊆∪(F∩G)
+∀a(a∈A∧a∈B→a∈∪(F∩G))
+</stmnt>
+x∈A∧x∈B→x∈∪(F∩G)
+</stmnt>
+x∈B∧x∈A
+</stmnt>
+x∈∪(F∩G)
+∃a(a∈F∧a∈G∧x∈a)
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>↔<wbr></span><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.<br><b>Proof:</b>
+31,32
+
+0
+-
+-
+0
+1
+Therefore <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>↔<wbr></span><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>→<wbr></span><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>→<wbr></span><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+-
+2
+
+0
+Suppose <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+3
+1
+Since <span class="formula"><i>A</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+26
+4
+
+0
+Let <span class="formula"><i>A</i></span> be arbitrary. Suppose <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+5
+1
+Since <span class="formula"><i>B</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+27
+6
+
+0
+Let <span class="formula"><i>B</i></span> be arbitrary. Suppose <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+-
+7
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+-
+8
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+-
+9
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+9
+10,11
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∩</span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+2
+12
+0
+Since <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+0
+-
+4,10
+13
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+13
+14
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>.
+</inf>
+0
+-
+11,6
+15
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span> and <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i><span>∧<wbr></span><i>B</i><span>∈<wbr></span><i>G</i></span>.
+</inf>
+0
+-
+15
+16
+0
+Since <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span>.
+</inf>
+0
+-
+14,16
+17
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span>.
+</inf>
+0
+-
+17,12
+18
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+0
+28
+18
+19
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, we can choose <span class="formula"><i>C</i></span> such that <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>C</i><span>∈<wbr></span><i>G</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+19
+20
+0
+Since <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>C</i><span>∈<wbr></span><i>G</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span><span>→<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+-
+21
+1
+Therefore <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span><span>→<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+-
+22
+
+0
+Suppose <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+-
+23
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+-
+24
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+-
+25
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>
+1
+0
+0
+-
+25
+26,27
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><span>∪</span><i>F</i><span>)</span><span>∩</span><span>(</span><span>∪</span><i>G</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span>.
+</inf>
+0
+26
+26
+28
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>, we can choose <span class="formula"><i>A</i></span> such that <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+27
+27
+29
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>G</i></span>, we can choose <span class="formula"><i>B</i></span> such that <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+28
+30,31
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+29
+32,33
+0
+Since <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+22
+34
+0
+Since <span class="formula"><span>∀</span><i>A</i><span>∈<wbr></span><i>F</i><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>, <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+</inf>
+0
+-
+30,34
+35
+0
+Since <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>A</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>, <span class="formula"><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>.
+</inf>
+0
+-
+35
+36
+0
+Since <span class="formula"><span>∀</span><i>B</i><span>∈<wbr></span><i>G</i><span>(</span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span><span>)</span></span>, <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i><span>→<wbr></span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+0
+-
+32,36
+37
+0
+Since <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i></span> and <span class="formula"><i>B</i><span>∈<wbr></span><i>G</i><span>→<wbr></span><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, <span class="formula"><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+0
+-
+37
+38
+0
+Since <span class="formula"><i>A</i><span>∩</span><i>B</i><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+0
+-
+33,31
+39
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+39,38
+40
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∩</span><i>G</i><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
