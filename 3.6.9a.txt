@@ -1,0 +1,623 @@
+∃!X∀A(A△X=A)
+</stmnt>
+∀A(A△∅=A)
+</stmnt>
+A△∅=A
+∀a(a∈A△∅↔a∈A)
+</stmnt>
+x∈A△∅↔x∈A
+</stmnt>
+x∈A△∅→x∈A
+</stmnt>
+x∈A△∅
+x∈A∧x∉∅∨(x∈∅∧x∉A)
+x∈A∧x∉∅∨¬(x∉∅∨x∈A)
+</stmnt>
+x∉∅
+x=x
+</stmnt>
+x∉∅∨x∈A
+</stmnt>
+x∈A∧x∉∅
+</stmnt>
+x∈A
+</stmnt>
+x∉∅
+</stmnt>
+x∈A→x∈A△∅
+</stmnt>
+x∈A
+</stmnt>
+x∉∅
+x=x
+</stmnt>
+x∈A∧x∉∅
+</stmnt>
+x∈A△∅
+x∈A∧x∉∅∨(x∈∅∧x∉A)
+</stmnt>
+∃X∀A(A△X=A)
+</stmnt>
+∀a∀b(∀A(A△a=A)∧∀A(A△b=A)→a=b)
+</stmnt>
+∀b(∀A(A△P=A)∧∀A(A△b=A)→P=b)
+</stmnt>
+∀A(A△P=A)∧∀A(A△Q=A)→P=Q
+</stmnt>
+∀A(A△P=A)∧∀A(A△Q=A)
+</stmnt>
+∀A(A△P=A)
+</stmnt>
+∀A(A△Q=A)
+</stmnt>
+∅△P=∅
+</stmnt>
+∅△Q=∅
+</stmnt>
+∅△P=∅△Q
+∀a(a∈∅△P↔a∈∅△Q)
+</stmnt>
+P=Q
+∀a(a∈P↔a∈Q)
+</stmnt>
+x∈P↔x∈Q
+</stmnt>
+x∈∅△P↔x∈∅△Q
+</stmnt>
+x∈P→x∈Q
+</stmnt>
+x∈P
+</stmnt>
+x∈∅△P→x∈∅△Q
+x∈∅∧x∉P∨(x∈P∧x∉∅)→x∈∅△Q
+</stmnt>
+x∈∅△Q→x∈∅△P
+</stmnt>
+x∉∅
+x=x
+</stmnt>
+x∉∅∧x∈P
+</stmnt>
+x∉∅∧x∈P∨(x∈∅∧x∈P)
+</stmnt>
+x∉∅∧x∈P∨(x∈∅∧x∉P)
+</stmnt>
+x∈∅△Q
+x∈∅∧x∉Q∨(x∈Q∧x∉∅)
+¬(x∉∅∨x∈Q)∨(x∈Q∧x∉∅)
+</stmnt>
+x∉∅∨x∉Q
+</stmnt>
+x∉∅∨x∈Q
+</stmnt>
+x∈Q∧x∉∅
+</stmnt>
+x∈Q
+</stmnt>
+x∉∅
+</stmnt>
+x∈Q→x∈P
+</stmnt>
+x∈Q
+</stmnt>
+x∈∅△P↔x∈∅△Q
+</stmnt>
+x∈∅△P→x∈∅△Q
+</stmnt>
+x∈∅△Q→x∈∅△P
+x∈∅∧x∉Q∨(x∈Q∧x∉∅)→x∈∅∧x∉P∨(x∈P∧x∉∅)
+¬(x∉∅∨x∈Q)∨(x∈Q∧x∉∅)→x∈∅∧x∉P∨(x∈P∧x∉∅)
+x∈∅∧x∉Q∨(x∈Q∧x∉∅)→x∈∅∧x∉P∨(x∈P∧x∉∅)
+</stmnt>
+x∉∅
+x=x
+</stmnt>
+x∈Q∨x∉∅
+</stmnt>
+x∉∅∧x∈Q
+</stmnt>
+x∉∅∧x∈Q∨(x∈∅∧x∉Q)
+</stmnt>
+x∈∅∧x∉P∨(x∈P∧x∉∅)
+¬(x∉∅∨x∈P)∨(x∈P∧x∉∅)
+</stmnt>
+x∉∅∨x∈P
+</stmnt>
+x∈P∧x∉∅
+</stmnt>
+x∈P
+</stmnt>
+x∉∅
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><span>∃</span><span>!</span><i>X</i><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>X</i><span>=<wbr></span><i>A</i><span>)</span></span>.<br><b>Proof:</b>
+
+
+0
+-
+-
+0
+1
+Therefore <span class="formula"><span>∃</span><span>!</span><i>X</i><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>X</i><span>=<wbr></span><i>A</i><span>)</span></span>.
+-
+-
+
+0
+Existence
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∃</span><i>X</i><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>X</i><span>=<wbr></span><i>A</i><span>)</span></span>
+1
+0
+0
+-
+-
+1
+1
+Since <span class="formula"><i>A</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><span>∅</span><span>=<wbr></span><i>A</i><span>)</span></span>.
+26
+-
+
+0
+Let <span class="formula"><i>A</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>A</i><span>△</span><span>∅</span><span>=<wbr></span><i>A</i></span>
+1
+0
+0
+-
+-
+2
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>A</i><span>△</span><span>∅</span><span>=<wbr></span><i>A</i></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+-
+3
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+-
+4
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+-
+5
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+-
+6
+0
+By the reflexivity of equality, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+6
+7
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+5,7
+8
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+8
+9,10
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+9
+9
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span>
+1
+0
+0
+-
+-
+11
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span>.
+-
+12
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span>
+1
+0
+0
+-
+-
+13
+0
+By the reflexivity of equality, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+12,13
+14
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+14
+15
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>△</span><span>∅</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+1
+16
+0
+Since <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><span>∅</span><span>=<wbr></span><i>A</i><span>)</span></span>, <span class="formula"><span>∃</span><i>X</i><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>X</i><span>=<wbr></span><i>A</i><span>)</span></span>.
+</inf>
+</proof>
+-
+-
+
+0
+Uniqueness
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>a</i><span>∀</span><i>b</i><span>(</span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>a</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>b</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>a</i><span>=<wbr></span><i>b</i><span>)</span></span>
+1
+0
+0
+-
+-
+17
+1
+Since <span class="formula"><i>P</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>a</i><span>∀</span><i>b</i><span>(</span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>a</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>b</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>a</i><span>=<wbr></span><i>b</i><span>)</span></span>.
+41
+-
+
+0
+Let <span class="formula"><i>P</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>b</i><span>(</span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>b</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>P</i><span>=<wbr></span><i>b</i><span>)</span></span>
+1
+0
+0
+-
+-
+18
+1
+Since <span class="formula"><i>Q</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>b</i><span>(</span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>b</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>P</i><span>=<wbr></span><i>b</i><span>)</span></span>.
+42
+-
+
+0
+Let <span class="formula"><i>Q</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>P</i><span>=<wbr></span><i>Q</i></span>
+1
+0
+0
+-
+-
+19
+1
+Therefore <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span><span>→<wbr></span><i>P</i><span>=<wbr></span><i>Q</i></span>.
+-
+20
+
+0
+Suppose <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>P</i><span>=<wbr></span><i>Q</i></span>
+1
+0
+0
+-
+20
+21,22
+0
+Since <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span><span>∧<wbr></span><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span></span>, <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span></span> and <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span></span>.
+</inf>
+0
+-
+21
+23
+0
+Since <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>P</i><span>=<wbr></span><i>A</i><span>)</span></span>, <span class="formula"><span>∅</span><span>△</span><i>P</i><span>=<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+22
+24
+0
+Since <span class="formula"><span>∀</span><i>A</i><span>(</span><i>A</i><span>△</span><i>Q</i><span>=<wbr></span><i>A</i><span>)</span></span>, <span class="formula"><span>∅</span><span>△</span><i>Q</i><span>=<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+24,23
+25
+0
+Since <span class="formula"><span>∅</span><span>△</span><i>Q</i><span>=<wbr></span><span>∅</span></span> and <span class="formula"><span>∅</span><span>△</span><i>P</i><span>=<wbr></span><span>∅</span></span>, <span class="formula"><span>∅</span><span>△</span><i>P</i><span>=<wbr></span><span>∅</span><span>△</span><i>Q</i></span>.
+</inf>
+0
+-
+-
+26
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>P</i><span>=<wbr></span><i>Q</i></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>
+1
+0
+0
+-
+-
+27
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>
+1
+0
+0
+-
+25
+28
+0
+Since <span class="formula"><span>∅</span><span>△</span><i>P</i><span>=<wbr></span><span>∅</span><span>△</span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>.
+</inf>
+0
+-
+-
+29
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>.
+-
+30
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span>
+1
+0
+0
+-
+28
+31,32
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i></span>.
+</inf>
+0
+-
+-
+33
+0
+By the reflexivity of equality, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+33,30
+34
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>.
+</inf>
+0
+-
+34
+35
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i><span>)</span></span>.
+</inf>
+0
+-
+34
+36
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>P</i><span>)</span></span>.
+</inf>
+0
+-
+36,31
+37
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>P</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>P</i><span>)</span></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>.
+</inf>
+0
+-
+33
+38
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∉<wbr></span><i>Q</i></span>.
+</inf>
+0
+-
+33
+39
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>.
+</inf>
+0
+-
+37,39
+40
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+40
+41,42
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+41
+41
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>
+1
+0
+0
+-
+-
+43
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>.
+-
+44
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i></span>
+1
+0
+0
+-
+25
+45
+0
+Since <span class="formula"><span>∅</span><span>△</span><i>P</i><span>=<wbr></span><span>∅</span><span>△</span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>.
+</inf>
+0
+-
+45
+46,47
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i></span>.
+</inf>
+0
+-
+-
+48
+0
+By the reflexivity of equality, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+44
+49
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i><span>∨<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+48,44
+50
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>Q</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>.
+</inf>
+0
+-
+50
+51
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>Q</i><span>)</span></span>.
+</inf>
+0
+-
+51,47
+52
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>Q</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>Q</i><span>)</span></span> and <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>Q</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∅</span><span>△</span><i>P</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>P</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><i>P</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span><span>)</span></span>.
+</inf>
+0
+-
+48
+53
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>.
+</inf>
+0
+-
+52,53
+54
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∅</span><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>P</i><span>∨<wbr></span><span>(</span><i>x</i><span>∈<wbr></span><i>P</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span><span>)</span></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>P</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+54
+55,56
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><span>∅</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><span>∅</span></span>.
+</inf>
+0
+-
+55
+55
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>P</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
